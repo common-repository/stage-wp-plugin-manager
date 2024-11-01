@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stage_WP_Plugin_Manager\n"
+"POT-Creation-Date: 2014-04-10 23:53-0300\n"
+"PO-Revision-Date: 2014-04-10 23:53-0300\n"
+"Last-Translator: Andrés Villarreal <andrezrv@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../stage-wp-plugin-manager-loader.class.php:211
+msgid "(activated)"
+msgstr "(activated)"
+
+#: ../stage-wp-plugin-manager-loader.class.php:211
+msgid "(deactivated)"
+msgstr "(deactivated)"
+
+#: ../stage-wp-plugin-manager-loader.class.php:212
+#: ../stage-wp-plugin-manager-loader.class.php:238
+#, php-format
+msgid "Detach from %s stage"
+msgstr "Detach from %s stage"
+
+#: ../stage-wp-plugin-manager-loader.class.php:216
+#: ../stage-wp-plugin-manager-loader.class.php:242
+#, php-format
+msgid "Attach to %s stage"
+msgstr "Attach to %s stage"
+
+#: ../stage-wp-plugin-manager-loader.class.php:237
+msgid "(network activated)"
+msgstr "(network activated)"
+
+#: ../stage-wp-plugin-manager-loader.class.php:237
+msgid "(network deactivated)"
+msgstr "(network deactivated)"
+
+#: ../stage-wp-plugin-manager-loader.class.php:288
+#: ../views/admin/admin-menu.php:26
+msgid "Stage WP Plugin Manager"
+msgstr "Stage WP Plugin Manager"
+
+#: ../stage-wp-plugin-manager-loader.class.php:288
+msgid "Stage Management"
+msgstr "Stage Management"
+
+#: ../stage-wp-plugin-manager-loader.class.php:301
+msgid "Description"
+msgstr "Description"
+
+#: ../stage-wp-plugin-manager-loader.class.php:310
+msgid "Getting Started"
+msgstr "Getting Started"
+
+#: ../stage-wp-plugin-manager-loader.class.php:319
+msgid "Attach & Detach Plugins"
+msgstr "Attach & Detach Plugins"
+
+#: ../stage-wp-plugin-manager-loader.class.php:328
+msgid "Adding Stages & Extending"
+msgstr "Adding Stages & Extending"
+
+#: ../stage-wp-plugin-manager-loader.class.php:337
+msgid "Credits"
+msgstr "Credits"
+
+#: ../stage-wp-plugin-manager-loader.class.php:391
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Stage WP Plugin Manager</a> by <a href=\"%2$s\">Andr&eacute;"
+"s Villarreal</a>. Try it with <a href=\"%3$s\">WP Bareboner</a> and <a href="
+"\"%4$s\">Stage WP</a> for more awesomeness :)"
+msgstr ""
+"<a href=\"%1$s\">Stage WP Plugin Manager</a> by <a href=\"%2$s\">Andr&eacute;"
+"s Villarreal</a>. Try it with <a href=\"%3$s\">WP Bareboner</a> and <a href="
+"\"%4$s\">Stage WP</a> for more awesomeness :)"
+
+#: ../stage-wp-plugin-manager-loader.class.php:406
+msgid "Settings"
+msgstr "Settings"
+
+#: ../stage-wp-plugin-manager.class.php:67
+msgid "Invalid operation: you cannot clone an instance of "
+msgstr "Invalid operation: you cannot clone an instance of "
+
+#: ../stage-wp-plugin-manager.class.php:74
+msgid "Invalid operation: you cannot unserialize an instance of "
+msgstr "Invalid operation: you cannot unserialize an instance of "
+
+#: ../stage-wp-plugin-manager.class.php:93
+msgid "Local"
+msgstr "Local"
+
+#: ../stage-wp-plugin-manager.class.php:94
+msgid "Staging"
+msgstr "Staging"
+
+#: ../stage-wp-plugin-manager.class.php:95
+msgid "Production"
+msgstr "Production"
+
+#: ../views/admin/admin-menu.php:20
+msgid "Network Activated"
+msgstr "Network Activated"
+
+#: ../views/admin/admin-menu.php:20
+msgid "Activated"
+msgstr "Activated"
+
+#: ../views/admin/admin-menu.php:22
+msgid "Network Deactivated"
+msgstr "Network Deactivated"
+
+#: ../views/admin/admin-menu.php:22
+msgid "Deactivated"
+msgstr "Deactivated"
+
+#: ../views/admin/admin-menu.php:28
+msgid ""
+"Here you can manage different plugin configurations for every one of the "
+"stages your site is being developed in or deployed to. The plugins you "
+"select for each stage will be automatically activated when that stage is "
+"marked as the working one. These are the configurations for the currently "
+"managed stages."
+msgstr ""
+"Here you can manage different plugin configurations for every one of the "
+"stages your site is being developed in or deployed to. The plugins you "
+"select for each stage will be automatically activated when that stage is "
+"marked as the working one. These are the configurations for the currently "
+"managed stages."
+
+#: ../views/admin/admin-menu.php:52
+msgid "This is your current working stage."
+msgstr "This is your current working stage."
+
+#: ../views/admin/admin-menu.php:53
+msgid ""
+"If you switch to another stage and want to go back to this one later, you "
+"must have the following code in your <code>wp-config.php</code> file (or "
+"whatever your configuration file is):"
+msgstr ""
+"If you switch to another stage and want to go back to this one later, you "
+"must have the following code in your <code>wp-config.php</code> file (or "
+"whatever your configuration file is):"
+
+#: ../views/admin/admin-menu.php:57
+msgid "This is a currently non-working stage."
+msgstr "This is a currently non-working stage."
+
+#: ../views/admin/admin-menu.php:58
+msgid ""
+"If you want to switch to this stage, you must have the following code in "
+"your <code>wp-config.php</code> file (or whatever your configuration file "
+"is):"
+msgstr ""
+"If you want to switch to this stage, you must have the following code in "
+"your <code>wp-config.php</code> file (or whatever your configuration file "
+"is):"
+
+#: ../views/admin/admin-menu.php:70
+#, php-format
+msgid "Active plugins for <em>%s</em> stage"
+msgstr "Active plugins for <em>%s</em> stage"
+
+#: ../views/admin/admin-menu.php:80
+#, php-format
+msgid "Original state: %s"
+msgstr "Original state: %s"
+
+#: ../views/admin/admin-menu.php:86
+#, php-format
+msgid ""
+"The plugins you select here will be automatically activated in your <em>%s</"
+"em> stage."
+msgstr ""
+"The plugins you select here will be automatically activated in your <em>%s</"
+"em> stage."
+
+#: ../views/admin/admin-menu.php:104
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: ../views/admin/admin-warning.php:13
+msgid "Warning"
+msgstr "Warning"
+
+#: ../views/admin/admin-warning.php:13
+#, php-format
+msgid ""
+"Stage WP Plugin Manager is active, but you have not defined the "
+"<code>WP_STAGE</code> constant. Please do it so and assign to it one of the "
+"following values in order for Stage WP Plugin Manager to work: %s."
+msgstr ""
+"Stage WP Plugin Manager is active, but you have not defined the "
+"<code>WP_STAGE</code> constant. Please do it so and assign to it one of the "
+"following values in order for Stage WP Plugin Manager to work: %s."
+
+#: ../views/admin/help-add-and-extend.php:13
+msgid ""
+"Stage WP Plugin Manager allows you to extend its functionality by offering "
+"hooks for filters and actions."
+msgstr ""
+"Stage WP Plugin Manager allows you to extend its functionality by offering "
+"hooks for filters and actions."
+
+#: ../views/admin/help-add-and-extend.php:16
+msgid ""
+"For example, you can add your custom stages or even remove the default ones "
+"by hooking in the <code>stage_wp_plugin_manager_stages</code> filter, having "
+"something like this in your plugin:"
+msgstr ""
+"For example, you can add your custom stages or even remove the default ones "
+"by hooking in the <code>stage_wp_plugin_manager_stages</code> filter, having "
+"something like this in your plugin:"
+
+#: ../views/admin/help-add-and-extend.php:26
+msgid ""
+"Additionally, you can give a nicer name to your new stage by hooking in the "
+"<code>stage_wp_plugin_manager_stages_txt</code> filter:"
+msgstr ""
+"Additionally, you can give a nicer name to your new stage by hooking in the "
+"<code>stage_wp_plugin_manager_stages_txt</code> filter:"
+
+#: ../views/admin/help-add-and-extend.php:36
+msgid ""
+"Here's the complete list of actions and filters that Stage WP Plugin Manager "
+"offers:"
+msgstr ""
+"Here's the complete list of actions and filters that Stage WP Plugin Manager "
+"offers:"
+
+#: ../views/admin/help-add-and-extend.php:38
+msgid "Action hooks"
+msgstr "Action hooks"
+
+#: ../views/admin/help-add-and-extend.php:40
+msgid "Perform some process before Stage WP Plugin Manager initializes."
+msgstr "Perform some process before Stage WP Plugin Manager initializes."
+
+#: ../views/admin/help-add-and-extend.php:41
+msgid "Perform some process after Stage WP Plugin Manager initializes."
+msgstr "Perform some process after Stage WP Plugin Manager initializes."
+
+#: ../views/admin/help-add-and-extend.php:43
+msgid "Filter hooks"
+msgstr "Filter hooks"
+
+#: ../views/admin/help-add-and-extend.php:45
+msgid "Modifiy the current supported stages."
+msgstr "Modifiy the current supported stages."
+
+#: ../views/admin/help-add-and-extend.php:46
+msgid "Modify the default stage."
+msgstr "Modify the default stage."
+
+#: ../views/admin/help-add-and-extend.php:47
+msgid "Modify the list of plugins managed by Stage WP Plugin Manager."
+msgstr "Modify the list of plugins managed by Stage WP Plugin Manager."
+
+#: ../views/admin/help-add-and-extend.php:48
+msgid "Modify the list of plugins attached to the current stage."
+msgstr "Modify the list of plugins attached to the current stage."
+
+#: ../views/admin/help-add-and-extend.php:49
+msgid ""
+"Modify the list of managed plugins that are not attached to the current "
+"stage."
+msgstr ""
+"Modify the list of managed plugins that are not attached to the current "
+"stage."
+
+#: ../views/admin/help-add-and-extend.php:50
+msgid "Modify the nonce key used for data validation."
+msgstr "Modify the nonce key used for data validation."
+
+#: ../views/admin/help-add-and-extend.php:51
+msgid "Modify contents of \"Description\" help tab."
+msgstr "Modify contents of \"Description\" help tab."
+
+#: ../views/admin/help-add-and-extend.php:52
+msgid "Modify contents of \"Getting Started\" help tab"
+msgstr "Modify contents of \"Getting Started\" help tab"
+
+#: ../views/admin/help-add-and-extend.php:53
+msgid "Modify contents of \"Attach & Detach Plugins\" help tab"
+msgstr "Modify contents of \"Attach & Detach Plugins\" help tab"
+
+#: ../views/admin/help-add-and-extend.php:54
+msgid "Modify contents of \"Adding Stages & Extending\" help tab"
+msgstr "Modify contents of \"Adding Stages & Extending\" help tab"
+
+#: ../views/admin/help-add-and-extend.php:55
+msgid "Modify contents of \"Credits\" help tab"
+msgstr "Modify contents of \"Credits\" help tab"
+
+#: ../views/admin/help-attach-and-detach.php:13
+msgid ""
+"Once you have installed this plugin, you will notice that a new link appears "
+"under each active plugin of the list, which reads \"Attach to [your-stage] "
+"stage\". By clicking that link, you are setting a plugin to be always active "
+"in the stage you're working at, and not active on the other stages (unless "
+"you attach the plugin to the other stages too)."
+msgstr ""
+"Once you have installed this plugin, you will notice that a new link appears "
+"under each active plugin of the list, which reads \"Attach to [your-stage] "
+"stage\". By clicking that link, you are setting a plugin to be always active "
+"in the stage you're working at, and not active on the other stages (unless "
+"you attach the plugin to the other stages too)."
+
+#: ../views/admin/help-attach-and-detach.php:16
+msgid ""
+"In case you want to remove a plugin from the list of active plugins for a "
+"stage, you just need to click the \"Detach from [your-stage] stage\"."
+msgstr ""
+"In case you want to remove a plugin from the list of active plugins for a "
+"stage, you just need to click the \"Detach from [your-stage] stage\"."
+
+#: ../views/admin/help-attach-and-detach.php:19
+msgid ""
+"Additionally, you can make bulk selections of plugins to be attached or "
+"detached for each stage in this same page."
+msgstr ""
+"Additionally, you can make bulk selections of plugins to be attached or "
+"detached for each stage in this same page."
+
+#: ../views/admin/help-credits.php:13
+#, php-format
+msgid ""
+"This plugin is written and mantained by <a href=\"%1$s\">Andr&eacute;s "
+"Villarreal</a>. It is meant as a complement for <a href=\"%2$s\">WP "
+"Bareboner</a>, an advanced Git model repo, and <a href=\"%3$s\">Stage WP</"
+"a>, a deployment tool based in Capistrano. The three projects work really "
+"well separated, but their real power can only be seen by using them together."
+msgstr ""
+"This plugin is written and mantained by <a href=\"%1$s\">Andr&eacute;s "
+"Villarreal</a>. It is meant as a complement for <a href=\"%2$s\">WP "
+"Bareboner</a>, an advanced Git model repo, and <a href=\"%3$s\">Stage WP</"
+"a>, a deployment tool based in Capistrano. The three projects work really "
+"well separated, but their real power can only be seen by using them together."
+
+#: ../views/admin/help-description.php:13
+msgid ""
+"If you develop in a local machine, at some point you'll have some active "
+"plugins there that you don't need in the servers that you're deploying to. "
+"Sure, you can deactivate them in your local machine before deploying, or "
+"after deploying in the remote ones, but you're gonna need them again to be "
+"active if you want to perform local work in the future, specially when you "
+"update your local database from a remote one. On such kind of scenarios, the "
+"whole process of manually activating and deactivating plugins for each stage "
+"can be really frustrating, sometimes even taking a lot of your time."
+msgstr ""
+"If you develop in a local machine, at some point you'll have some active "
+"plugins there that you don't need in the servers that you're deploying to. "
+"Sure, you can deactivate them in your local machine before deploying, or "
+"after deploying in the remote ones, but you're gonna need them again to be "
+"active if you want to perform local work in the future, specially when you "
+"update your local database from a remote one. On such kind of scenarios, the "
+"whole process of manually activating and deactivating plugins for each stage "
+"can be really frustrating, sometimes even taking a lot of your time."
+
+#: ../views/admin/help-description.php:16
+msgid ""
+"Stage WP Plugin Manager is meant to solve that problem in an quick and "
+"elegant way, by doing an automatic \"fake\"  activation of the plugins you "
+"select for each stage: every plugin you attach to a stage will be immediatly "
+"treated as an active plugin on that stage, no matter what its previous "
+"status was, or its current status on the other stages. Since the list of "
+"active plugins is just filtered instead of rewritten, you can restore the "
+"previous status of a plugin by detaching it, and go back to your original "
+"setup by deactivating Stage WP Plugin Manager."
+msgstr ""
+"Stage WP Plugin Manager is meant to solve that problem in an quick and "
+"elegant way, by doing an automatic \"fake\"  activation of the plugins you "
+"select for each stage: every plugin you attach to a stage will be immediatly "
+"treated as an active plugin on that stage, no matter what its previous "
+"status was, or its current status on the other stages. Since the list of "
+"active plugins is just filtered instead of rewritten, you can restore the "
+"previous status of a plugin by detaching it, and go back to your original "
+"setup by deactivating Stage WP Plugin Manager."
+
+#: ../views/admin/help-description.php:19
+msgid ""
+"Of course, there's always a catch: Stage WP Plugin Manager doesn't work "
+"right out of the box in most installations, so besides from installing this "
+"plugin, you may need to do a little additional work."
+msgstr ""
+"Of course, there's always a catch: Stage WP Plugin Manager doesn't work "
+"right out of the box in most installations, so besides from installing this "
+"plugin, you may need to do a little additional work."
+
+#: ../views/admin/help-getting-started.php:13
+msgid "Stage WP Plugin Manager works on some assumptions about your workflow:"
+msgstr "Stage WP Plugin Manager works on some assumptions about your workflow:"
+
+#: ../views/admin/help-getting-started.php:17
+msgid ""
+"You have a constant named <code>WP_STAGE</code> defined in your WordPress "
+"configuration file (often <code>wp-config.php</code>)."
+msgstr ""
+"You have a constant named <code>WP_STAGE</code> defined in your WordPress "
+"configuration file (often <code>wp-config.php</code>)."
+
+#: ../views/admin/help-getting-started.php:18
+#, php-format
+msgid ""
+"The <code>WP_STAGE</code> value is one of the supported stages. The "
+"currently supported stages are: %s"
+msgstr ""
+"The <code>WP_STAGE</code> value is one of the supported stages. The "
+"currently supported stages are: %s"
+
+#: ../views/admin/help-getting-started.php:19
+msgid "The value of <code>WP_STAGE</code> is different in each of your stages."
+msgstr ""
+"The value of <code>WP_STAGE</code> is different in each of your stages."
+
+#: ../views/admin/help-getting-started.php:22
+msgid ""
+" Some developers prefer to keep different configuration files for each one "
+"of their stages, or change the values of their constants based on some "
+"evaluation. For example, you could have something like this in your <code>wp-"
+"config.php</code> file:"
+msgstr ""
+" Some developers prefer to keep different configuration files for each one "
+"of their stages, or change the values of their constants based on some "
+"evaluation. For example, you could have something like this in your <code>wp-"
+"config.php</code> file:"
+
+#: ../views/admin/help-getting-started.php:33
+msgid ""
+"If you follow this example, note that <code>local-config.php</code> should "
+"not be included in your deployments to staging and production, and both "
+"<code>local-config.php</code> and <code>staging-config.php</code> should not "
+"exist in your production stage."
+msgstr ""
+"If you follow this example, note that <code>local-config.php</code> should "
+"not be included in your deployments to staging and production, and both "
+"<code>local-config.php</code> and <code>staging-config.php</code> should not "
+"exist in your production stage."
+
+#: ../views/admin/script.js.php:4
+msgid "Network Activate"
+msgstr "Network Activate"
+
+#: ../views/admin/script.js.php:4
+msgid "Activate"
+msgstr "Activate"
+
+#: ../views/admin/script.js.php:5
+msgid "Network Deactivate"
+msgstr "Network Deactivate"
+
+#: ../views/admin/script.js.php:5
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#~ msgid "Network Dectivated"
+#~ msgstr "Network Dectivated"
